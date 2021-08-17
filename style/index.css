@@ -1,0 +1,57 @@
+* {
+	background: transparent;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	padding: 10px;
+	background: #ebe9e9;
+}
+.main-warp {
+	width: 1800px;
+	height: 1500px;
+}
+.back-color{
+	top:15px;
+	width:240px;
+	height:150px;
+	text-align: center;
+	border-radius: 5px;
+    position: absolute;
+	display: inline-block;
+	border:2px solid #777777;
+    background: rgba(187, 186, 186, 0.5);
+}
+.back-color > svg{
+	margin: 55px 0px;
+	position: relative;
+}
+.back-color > path{
+	text-align: center;
+}
+.svg-size{
+	top: 90px;
+	left: 80px;
+	font-size:30px;
+	font-weight: 1200;
+	position: absolute;
+	letter-spacing: 3px;
+	transform: rotate(-30deg);
+	color: rgba(92, 91, 91, 0.2);
+}
+.download {
+	top: 135px;
+	left: 270px;
+	float: left;
+	border:none;
+	width: 60px;
+	height: 30px;
+	position: absolute;
+	line-height: 30px;
+	border-radius: 5px;
+	background:rgba(187, 186, 186, 0.5);
+}
+.download:hover{
+	cursor: pointer;
+	background:rgb(187, 186, 186);
+}
